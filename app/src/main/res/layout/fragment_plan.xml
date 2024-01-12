@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="top"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/EditPlan"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:lines="23"
+        android:hint="세부 계획을 자유롭게 작성해보세요!"
+        android:background="@color/pastel_blue"
+        android:fontFamily="@font/omyu"
+        ></EditText>
+
+    <Button
+        android:id="@+id/SaveBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="일정 저장"
+        android:fontFamily="@font/omyu"
+        ></Button>
+
+</LinearLayout>

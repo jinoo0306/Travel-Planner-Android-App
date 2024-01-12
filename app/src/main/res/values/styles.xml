@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- 기존 스타일 속성 -->
+        <item name="android:fontFamily">@font/omyu</item>
+        <item name="fontFamily">@font/omyu</item>
+    </style>
+</resources>

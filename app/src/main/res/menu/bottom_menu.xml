@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/TabPlan"
+        android:enabled="true"
+        android:icon="@drawable/ic_plan"
+        android:title="Plan"
+        app:showAsAction="always"
+        ></item>
+
+    <item
+        android:id="@+id/TabAlbum"
+        android:enabled="true"
+        android:icon="@drawable/ic_album"
+        android:title="Album"
+        app:showAsAction="always"
+        ></item>
+
+    <item
+        android:id="@+id/TabWallet"
+        android:enabled="true"
+        android:icon="@drawable/ic_wallet"
+        android:title="Wallet"
+        app:showAsAction="always"
+        ></item>
+</menu>

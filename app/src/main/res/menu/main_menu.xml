@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <menu xmlns:android="http://schemas.android.com/apk/res/android">
+        <item
+            android:id="@+id/PlusMain"
+            android:enabled="true"
+            android:title="계획 추가"
+            ></item>
+
+    <item
+        android:id="@+id/DeleteMain"
+        android:enabled="true"
+        android:title="계획 삭제"
+        ></item>
+
+    <item
+        android:id="@+id/ClearMain"
+        android:enabled="true"
+        android:title="계획 전체 삭제"
+        ></item>
+</menu>

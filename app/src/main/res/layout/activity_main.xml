@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:gravity="right"
+    android:background="@color/deep_blue"
+    >
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:id="@+id/TitleLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="top|center"
+            >
+            <LinearLayout
+                android:id="@+id/DateLayout1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_margin="20dp"
+                android:visibility="invisible"
+                >
+                <TextView
+                    android:id="@+id/DateTv1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textSize="35dp"
+                    android:textColor="@color/white"
+
+                    ></TextView>
+                <Button
+                    android:id="@+id/DateBtn1"
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textColor="@color/black"
+                    android:backgroundTint="@color/white"
+
+                    ></Button>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/DateLayout2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_margin="20dp"
+                android:visibility="invisible"
+                >
+                <TextView
+                    android:id="@+id/DateTv2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" "
+                    android:textSize="35dp"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/omyu"
+                    ></TextView>
+                <Button
+                    android:id="@+id/DateBtn2"
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:text=" "
+                    android:textColor="@color/black"
+                    android:backgroundTint="@color/white"
+                    android:fontFamily="@font/omyu"
+                    ></Button>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/DateLayout3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_margin="20dp"
+                android:visibility="invisible"
+                >
+                <TextView
+                    android:id="@+id/DateTv3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" "
+                    android:textSize="35dp"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/omyu"
+                    ></TextView>
+                <Button
+                    android:id="@+id/DateBtn3"
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:text=" "
+                    android:textColor="@color/black"
+                    android:backgroundTint="@color/white"
+                    android:fontFamily="@font/omyu"
+                    ></Button>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/DateLayout4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_margin="20dp"
+                android:visibility="invisible"
+                >
+                <TextView
+                    android:id="@+id/DateTv4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" "
+                    android:textSize="35dp"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/omyu"
+                    ></TextView>
+                <Button
+                    android:id="@+id/DateBtn4"
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:text=" "
+                    android:textColor="@color/black"
+                    android:backgroundTint="@color/white"
+                    android:fontFamily="@font/omyu"
+                    ></Button>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/DateLayout5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_margin="20dp"
+                android:visibility="invisible"
+                >
+                <TextView
+                    android:id="@+id/DateTv5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" "
+                    android:textSize="35dp"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/omyu"
+                    ></TextView>
+                <Button
+                    android:id="@+id/DateBtn5"
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:text=" "
+                    android:textColor="@color/black"
+                    android:backgroundTint="@color/white"
+                    android:fontFamily="@font/omyu"
+                    ></Button>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/DateLayout6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_margin="20dp"
+                android:visibility="invisible"
+                >
+                <TextView
+                    android:id="@+id/DateTv6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" "
+                    android:textSize="35dp"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/omyu"
+                    ></TextView>
+                <Button
+                    android:id="@+id/DateBtn6"
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:text=" "
+                    android:textColor="@color/black"
+                    android:backgroundTint="@color/white"
+                    android:fontFamily="@font/omyu"
+                    ></Button>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/DateLayout7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_margin="20dp"
+                android:visibility="invisible"
+                >
+                <TextView
+                    android:id="@+id/DateTv7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" "
+                    android:textSize="35dp"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/omyu"
+                    ></TextView>
+                <Button
+                    android:id="@+id/DateBtn7"
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:text=" "
+                    android:textColor="@color/black"
+                    android:backgroundTint="@color/white"
+                    android:fontFamily="@font/omyu"
+                    ></Button>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/DateLayout8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_margin="20dp"
+                android:visibility="invisible"
+                >
+                <TextView
+                    android:id="@+id/DateTv8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" "
+                    android:textSize="35dp"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/omyu"
+                    ></TextView>
+                <Button
+                    android:id="@+id/DateBtn8"
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:text=" "
+                    android:textColor="@color/black"
+                    android:backgroundTint="@color/white"
+                    android:fontFamily="@font/omyu"
+                    ></Button>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/DateLayout9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_margin="20dp"
+                android:visibility="invisible"
+                >
+                <TextView
+                    android:id="@+id/DateTv9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" "
+                    android:textSize="35dp"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/omyu"
+                    ></TextView>
+                <Button
+                    android:id="@+id/DateBtn9"
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:text=" "
+                    android:textColor="@color/black"
+                    android:backgroundTint="@color/white"
+                    android:fontFamily="@font/omyu"
+                    ></Button>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</LinearLayout>

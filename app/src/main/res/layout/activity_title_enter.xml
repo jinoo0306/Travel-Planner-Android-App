@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_margin="15dp"
+        android:background="@color/pastel_blue"
+        android:padding="20dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="어디로 여행 가시나요?"
+            android:layout_gravity="center"
+            android:textSize="25dp"
+            ></TextView>
+
+        <EditText
+            android:id="@+id/Travel_Destination"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:hint=""
+            ></EditText>
+    </LinearLayout>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="15dp"
+            android:background="@color/pastel_blue"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="여행 일정을 입력해주세요\n"
+                android:textSize="25dp"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="여행 시작 날짜"></TextView>
+
+            <DatePicker
+                android:id="@+id/StartDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:calendarViewShown="false"
+                android:datePickerMode="spinner"></DatePicker>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="여행 종료 날짜"></TextView>
+
+            <DatePicker
+                android:id="@+id/EndDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:calendarViewShown="false"
+                android:datePickerMode="spinner"></DatePicker>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+    >
+</LinearLayout>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <RadioGroup
+        android:id="@+id/DltMenu_Rdo0"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <RadioButton
+            android:id="@+id/DltMenu_Rdo1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1번"
+            android:visibility="invisible" />
+
+        <RadioButton
+            android:id="@+id/DltMenu_Rdo2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2번"
+            android:visibility="invisible" />
+
+        <RadioButton
+            android:id="@+id/DltMenu_Rdo3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3번"
+            android:visibility="invisible" />
+
+        <RadioButton
+            android:id="@+id/DltMenu_Rdo4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4번"
+            android:visibility="invisible" />
+
+        <RadioButton
+            android:id="@+id/DltMenu_Rdo5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5번"
+            android:visibility="invisible" />
+
+        <RadioButton
+            android:id="@+id/DltMenu_Rdo6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="6번"
+            android:visibility="invisible" />
+
+        <RadioButton
+            android:id="@+id/DltMenu_Rdo7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="7번"
+            android:visibility="invisible" />
+
+        <RadioButton
+            android:id="@+id/DltMenu_Rdo8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="8번"
+            android:visibility="invisible" />
+
+        <RadioButton
+            android:id="@+id/DltMenu_Rdo9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="9번"
+            android:visibility="invisible" />
+    </RadioGroup>
+
+</LinearLayout>
